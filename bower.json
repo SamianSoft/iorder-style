@@ -1,0 +1,35 @@
+{
+	"name": "iorder-style",
+	"authors": [
+		"PTC Corporation <info@ptc.co.ir>"
+	],
+	"description": "iOrder PWA Elements Shared Style & Default Theme",
+	"main": "iorder-style.html",
+	"keywords": [
+		"ptc",
+		"polymer",
+		"iorder",
+		"element",
+		"pwa",
+		"panel",
+		"filter"
+	],
+	"license": "Copyright © 2016 PTC Corporation, All rights reserved",
+	"homepage": "https://github.com/PTCSoft/PE-iorder-style",
+	"private": true,
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+	},
+	"devDependencies": {
+		"iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+		"iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
+		"web-component-tester": "^4.0.0",
+		"webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+	}
+}
