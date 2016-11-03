@@ -3,7 +3,7 @@
 	"authors": [
 		"PTC Corporation <info@ptc.co.ir>"
 	],
-	"description": "iOrder PWA panel filter",
+	"description": "iOrder PWA Elements Shared Style & Default Theme",
 	"main": "iorder-style.html",
 	"keywords": [
 		"ptc",
