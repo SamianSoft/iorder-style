@@ -1,222 +1,221 @@
 <!doctype html>
 <html>
 <head>
-  <title>iOrder-icon demo</title>
-  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
-  <link rel="import" href="../../paper-styles/demo-pages.html">
-  <link rel="import" href="../../paper-styles/color.html">
-  <link rel="import" href="../../iron-flex-layout/iron-flex-layout.html">
+	<title>iOrder-icon demo</title>
+	<script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+	<link rel="import" href="../../paper-styles/demo-pages.html">
+	<link rel="import" href="../../paper-styles/color.html">
+	<link rel="import" href="../../iron-flex-layout/iron-flex-layout.html">
 
-  <!-- load default iconset -->
-  <link rel="import" href="../../iron-icons/iron-icons.html">
+	<!-- load default iconset -->
+	<link rel="import" href="../../iron-icons/iron-icons.html">
 
-  <!-- load the rest -->
-  <link rel="import" href="../../iron-icons/av-icons.html">
-  <link rel="import" href="../../iron-icons/communication-icons.html">
-  <link rel="import" href="../../iron-icons/device-icons.html">
-  <link rel="import" href="../../iron-icons/editor-icons.html">
-  <link rel="import" href="../../iron-icons/hardware-icons.html">
-  <link rel="import" href="../../iron-icons/image-icons.html">
-  <link rel="import" href="../../iron-icons/maps-icons.html">
-  <link rel="import" href="../../iron-icons/notification-icons.html">
-  <link rel="import" href="../../iron-icons/social-icons.html">
-  <link rel="import" href="../../iron-icons/places-icons.html">
+	<!-- load the rest -->
+	<link rel="import" href="../../iron-icons/av-icons.html">
+	<link rel="import" href="../../iron-icons/communication-icons.html">
+	<link rel="import" href="../../iron-icons/device-icons.html">
+	<link rel="import" href="../../iron-icons/editor-icons.html">
+	<link rel="import" href="../../iron-icons/hardware-icons.html">
+	<link rel="import" href="../../iron-icons/image-icons.html">
+	<link rel="import" href="../../iron-icons/maps-icons.html">
+	<link rel="import" href="../../iron-icons/notification-icons.html">
+	<link rel="import" href="../../iron-icons/social-icons.html">
+	<link rel="import" href="../../iron-icons/places-icons.html">
 
-  <style is="custom-style">
+	<style is="custom-style">
 
-    h2 {
-      text-transform: capitalize;
-    }
+		h2 {
+			text-transform: capitalize;
+		}
 
-    iron-icon {
-      transition: all 0.2s;
-      -webkit-transition: all 0.2s;
-    }
+		iron-icon {
+			transition: all 0.2s;
+			-webkit-transition: all 0.2s;
+		}
 
-    iron-icon:hover {
-      fill: var(--google-yellow-700);
-    }
+		iron-icon:hover {
+			fill: var(--google-yellow-700);
+		}
 
-    .set {
-      margin: auto;
-      padding: 1em 0;
-      border-bottom: 1px solid silver;
-      @apply(--layout-horizontal);
-      @apply(--layout-wrap);
-    }
+		.set {
+			margin: auto;
+			padding: 1em 0;
+			border-bottom: 1px solid silver;
+			@apply(--layout-horizontal);
+			@apply(--layout-wrap);
+		}
 
-    .container {
-      min-width: 10em;
-      padding: 1em 0.5em;
-      text-align: center;
-      @apply(--layout-vertical);
-      @apply(--layout-center);
-      @apply(--layout-flex-1);
-    }
+		.container {
+			min-width: 10em;
+			padding: 1em 0.5em;
+			text-align: center;
+			@apply(--layout-vertical);
+			@apply(--layout-center);
+			@apply(--layout-flex-1);
+		}
 
-    .container > div {
-      margin-top: 0.5em;
-      color: black;
-      font-size: 10px;
-    }
+		.container > div {
+			margin-top: 0.5em;
+			color: black;
+			font-size: 10px;
+		}
 
-  </style>
+	</style>
 
 </head>
 <body>
+	<template is="dom-bind">
+		<div class="set">
+			<span class="container">
+				<iron-icon icon="icons:home"></iron-icon>
+				<div>icons:home</div>
+			</span>
 
-  <template is="dom-bind">
-      <div class="set">
-          <span class="container">
-            <iron-icon icon="icons:home"></iron-icon>
-            <div>icons:home</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="maps:local-phone"></iron-icon>
+				<div>maps:local-phone</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="maps:local-phone"></iron-icon>
-            <div>maps:local-phone</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:power-settings-new"></iron-icon>
+				<div>icons:power-settings-new</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:power-settings-new"></iron-icon>
-            <div>icons:power-settings-new</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="editor:insert-emoticon"></iron-icon>
+				<div>editor:insert-emoticon</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="editor:insert-emoticon"></iron-icon>
-            <div>editor:insert-emoticon</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="device:access-time"></iron-icon>
+				<div>device:access-time</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="device:access-time"></iron-icon>
-            <div>device:access-time</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:help-outline"></iron-icon>
+				<div>icons:help-outline</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:help-outline"></iron-icon>
-            <div>icons:help-outline</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:arrow-forward"></iron-icon>
+				<div>icons:arrow-forward</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:arrow-forward"></iron-icon>
-            <div>icons:arrow-forward</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:arrow-back"></iron-icon>
+				<div>icons:arrow-back</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:arrow-back"></iron-icon>
-            <div>icons:arrow-back</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:chevron-left"></iron-icon>
+				<div>icons:chevron-left</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:chevron-left"></iron-icon>
-            <div>icons:chevron-left</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:chevron-right"></iron-icon>
+				<div>icons:chevron-right</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:chevron-right"></iron-icon>
-            <div>icons:chevron-right</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="image:brush"></iron-icon>
+				<div>image:brush</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="image:brush"></iron-icon>
-            <div>image:brush</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:add"></iron-icon>
+				<div>icons:add</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:add"></iron-icon>
-            <div>icons:add</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:check"></iron-icon>
+				<div>icons:check</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:check"></iron-icon>
-            <div>icons:check</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:close"></iron-icon>
+				<div>icons:close</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:close"></iron-icon>
-            <div>icons:close</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:search"></iron-icon>
+				<div>icons:search</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:search"></iron-icon>
-            <div>icons:search</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:file-download"></iron-icon>
+				<div>icons:file-download</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:file-download"></iron-icon>
-            <div>icons:file-download</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:create"></iron-icon>
+				<div>icons:create</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:create"></iron-icon>
-            <div>icons:create</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:more-vert"></iron-icon>
+				<div>icons:more-vert</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:more-vert"></iron-icon>
-            <div>icons:more-vert</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="image:remove-red-eye"></iron-icon>
+				<div>image:remove-red-eye</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="image:remove-red-eye"></iron-icon>
-            <div>image:remove-red-eye</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:arrow-drop-down"></iron-icon>
+				<div>icons:arrow-drop-down</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:arrow-drop-down"></iron-icon>
-            <div>icons:arrow-drop-down</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:build"></iron-icon>
+				<div>icons:build</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:build"></iron-icon>
-            <div>icons:build</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:help"></iron-icon>
+				<div>icons:help</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:help"></iron-icon>
-            <div>icons:help</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:help"></iron-icon>
+				<div>icons:help</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:help"></iron-icon>
-            <div>icons:help</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:help"></iron-icon>
+				<div>icons:help</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:help"></iron-icon>
-            <div>icons:help</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:help"></iron-icon>
+				<div>icons:help</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:help"></iron-icon>
-            <div>icons:help</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:help"></iron-icon>
+				<div>icons:help</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:help"></iron-icon>
-            <div>icons:help</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:help"></iron-icon>
+				<div>icons:help</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:help"></iron-icon>
-            <div>icons:help</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:help"></iron-icon>
+				<div>icons:help</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:help"></iron-icon>
-            <div>icons:help</div>
-          </span>
+			<span class="container">
+				<iron-icon icon="icons:help"></iron-icon>
+				<div>icons:help</div>
+			</span>
 
-          <span class="container">
-            <iron-icon icon="icons:help"></iron-icon>
-            <div>icons:help</div>
-          </span>
-
-          <span class="container">
-            <iron-icon icon="icons:help"></iron-icon>
-            <div>icons:help</div>
-          </span>
-      </div>
-  </template>
+			<span class="container">
+				<iron-icon icon="icons:help"></iron-icon>
+				<div>icons:help</div>
+			</span>
+		</div>
+	</template>
 </body>
 </html>
