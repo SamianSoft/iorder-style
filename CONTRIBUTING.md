@@ -9,12 +9,12 @@ Each commit message consists of a **header**, a **body** and a **footer**.  The 
 format that includes a **type**, a **scope** and a **subject**:
 
 ```
-<type>(<scope>): <subject>
+<type>(<scope>): <ISSUE-CODE> <subject>
 <BLANK LINE>
 <body>
-``` 
+```
 
-The **header** is mandatory and the **scope** of the header is optional.
+The **scope** of the header is optional.
 
 Any line of the commit message cannot be longer 100 characters! This allows the message to be easier
 to read on GitHub as well as in various git tools.
@@ -29,12 +29,14 @@ Must be one of the following:
 * **fix**: A bug fix
 * **doc**: Documentation only changes
 * **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing
-  semi-colons, etc)
+	semi-colons, etc)
 * **refactor**: A code change that neither fixes a bug nor adds a feature
 * **perf**: A code change that improves performance
 * **test**: Adding missing tests or correcting existing tests
 * **build**: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
 * **chore**: Other changes that don't modify `src` or `test` files
+* **revert**: Reverts a previous commit
+* **merge**: Merge another branch to working branche
 
 ### Scope
 The scope could be anything specifying place of the commit change. For example
@@ -46,7 +48,8 @@ The subject contains succinct description of the change:
 * use the imperative, present tense: "change" not "changed" nor "changes"
 * don't capitalize first letter
 * no dot (.) at the end
+* only in english
 
 ### Body
-Just as in the **subject**, use the imperative, present tense: "change" not "changed" nor "changes".
+Just as in the **subject**, use the imperative, present tense: "change" not "changed" nor "changes" but it can be written in persian.
 The body should include the motivation for the change and contrast this with previous behavior.
