@@ -1,47 +1,48 @@
 {
-	"name": "iorder-style",
-	"authors": [
-		"PTC Corporation <info@ptc.co.ir>"
-	],
-	"description": "iOrder PWA Elements Shared Style & Default Theme",
-	"main": "iorder-style.html",
-	"keywords": [
-		"ptc",
-		"polymer",
-		"iorder",
-		"element",
-		"pwa",
-		"panel",
-		"filter"
-	],
-	"license": "Copyright © 2016 PTC Corporation, All rights reserved",
-	"homepage": "https://github.com/PTCSoft/PE-iorder-style",
-	"private": true,
-	"ignore": [
-		"**/.*",
-		"node_modules",
-		"bower_components",
-		"test",
-		"tests"
-	],
-	"dependencies": {
-		"polymer": "Polymer/polymer#2.0-preview",
-		"iron-component-page": "PolymerElements/iron-component-page#2.0-preview",
-		"iron-demo-helpers": "PolymerElements/iron-demo-helpers#2.0-preview",
-		"app-layout": "PolymerElements/app-layout#2.0-preview",
-		"app-route": "PolymerElements/app-route#2.0-preview",
-		"iron-flex-layout": "PolymerElements/iron-flex-layout#2.0-preview",
-		"iron-icon": "PolymerElements/iron-icon#2.0-preview",
-		"iron-iconset-svg": "PolymerElements/iron-iconset-svg#2.0-preview",
-		"iron-media-query": "PolymerElements/iron-media-query#2.0-preview",
-		"iron-pages": "PolymerElements/iron-pages#2.0-preview",
-		"iron-selector": "PolymerElements/iron-selector#2.0-preview",
-		"paper-icon-button": "PolymerElements/paper-icon-button#2.0-preview"
-	},
-	"devDependencies": {
-		"web-component-tester": "^4.0.0"
-	},
-	"resolutions": {
-		"webcomponentsjs": "v1"
-	}
+  "name": "iorder-style",
+  "authors": [
+    "PTC Corporation <info@ptc.co.ir>"
+  ],
+  "description": "iOrder PWA Elements Shared Style & Default Theme",
+  "main": "iorder-style.html",
+  "keywords": [
+    "ptc",
+    "polymer",
+    "iorder",
+    "element",
+    "pwa",
+    "panel",
+    "filter"
+  ],
+  "license": "Copyright © 2016 PTC Corporation, All rights reserved",
+  "homepage": "https://github.com/PTCSoft/PE-iorder-style",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#2.0-preview",
+    "iron-component-page": "PolymerElements/iron-component-page#2.0-preview",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#2.0-preview",
+    "app-layout": "PolymerElements/app-layout#2.0-preview",
+    "app-route": "PolymerElements/app-route#2.0-preview",
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#2.0-preview",
+    "iron-icon": "PolymerElements/iron-icon#2.0-preview",
+    "iron-iconset-svg": "PolymerElements/iron-iconset-svg#2.0-preview",
+    "iron-media-query": "PolymerElements/iron-media-query#2.0-preview",
+    "iron-pages": "PolymerElements/iron-pages#2.0-preview",
+    "iron-selector": "PolymerElements/iron-selector#2.0-preview",
+    "paper-icon-button": "PolymerElements/paper-icon-button#2.0-preview"
+  },
+  "devDependencies": {
+    "web-component-tester": "^4.0.0"
+  },
+  "resolutions": {
+    "webcomponentsjs": "v1",
+    "polymer": "2.0-preview"
+  }
 }
